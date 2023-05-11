@@ -12,6 +12,7 @@ import WomenMenColthing from './Components/WomenMenColthing/WomenMenColthing'
 import FasionAndBueaty from './Components/FasionAndBueaty/FasionAndBueaty'
 import HomeAndLiving from './Components/HomeAndLiving/HomeAndLiving'
 import Footer from './Components/Footer/Footer'
+import MobileFooter from './Components/Footer/MobileFooter'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <FasionAndBueaty></FasionAndBueaty>
       <HomeAndLiving></HomeAndLiving>
       <Footer></Footer>
+      <MobileFooter></MobileFooter>
 
     </div>
   )
