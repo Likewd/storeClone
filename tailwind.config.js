@@ -19,6 +19,17 @@ module.exports = {
         borderColor: "#D9D9D9",
         buttonColor:"#42B00F"
       },
+      screens: {
+        'xs': '320px',
+        'mm': '370px',
+        'ml': '425px',
+        
+      'sm': '640px',
+      'md': '768px', // new breakpoint added here
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
       fontSize: {
         sm: "0.8rem",
         base: "1rem",

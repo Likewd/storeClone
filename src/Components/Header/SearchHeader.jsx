@@ -12,7 +12,7 @@ import {
 
 const SearchHeader = () => {
   return (
-    <header className='px-1 md:px-8 lg:px-16 relative bg-backgroundWhite min-h-20 relative  flex md:flex-row flex-col justify-between items-center '>
+    <header className='xs:px-[3px]  mm:px-1 sm:px-3 md:px-8 lg:px-16 py-5 relative bg-backgroundWhite min-h-20 relative  flex md:flex-row flex-col justify-between items-center '>
       <div className="flex  items-center justify-between md:justify-center px-3 md:p-0 gap-2 w-full md:w-auto">
         <img src={google} className='h-[70px] ' alt="googleIcon" />
         <div className="flex relative bg-[#F9F9F9] rounded-full h-12 w-12  md:hidden items-center justify-center  flex-col  ">
@@ -25,7 +25,7 @@ const SearchHeader = () => {
       <div className="flex md:hidden items-center justify-between  w-full px-3 md:p-0">
         <div className="flex items-center  rounded-lg sm:w-80 w-max-full  ">
           <input type="text" placeholder='Search....' className=' py-3 h-12  border-2 border-[#D0D0D0] px-2 bg-[#F9F9F9] placeholder:text-[#737373] font-fontArimo text-base font-[400] outline-none' />
-          <button className=' bg-buttonColor px-3  sm:px-7  h-12 rounded-r-[13px] '> <AiOutlineSearch className='text-white text-xl'></AiOutlineSearch></button>
+          <button className='hidden sm:block bg-buttonColor px-3  sm:px-7  h-12 rounded-r-[13px] '> <AiOutlineSearch className='text-white text-xl'></AiOutlineSearch></button>
         </div>
         <div className=" flex items-center justify-center p-2 border-2 border-buttonColor ">
           <BiFilter className='text-[32px]'></BiFilter>

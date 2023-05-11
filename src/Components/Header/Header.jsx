@@ -7,7 +7,7 @@ import { BsTwitter } from "react-icons/bs";
 const Header = () => {
     const [active, setactive] = useState(1)
     return (
-        <header className=' px-1 md:px-8 lg:px-16 relative bg-backgroundWhite  h-20  md:flex hidden justify-between items-center '>
+        <header className=' xs:px-[3px]  mm:px-1 sm:px-3 md:px-8 lg:px-16 py-5 relative bg-backgroundWhite  h-20  md:flex hidden justify-between items-center '>
             <div className="flex  items-center justify-center gap-4">
                 <div className='flex  items-center justify-center gap-2 '> <FiPhoneCall className='text-textColor1 font-fontArimo text-lg'></FiPhoneCall> <span className='text-textColor3 font-fontArimo text-lg font-[400]'>123-345-678</span></div>
                 <div className='flex  items-center justify-center gap-2'> <CiMail className='text-textColor1 font-fontArimo text-[24px] font-semibold'></CiMail> <span className='text-textColor3 font-fontArimo text-lg font-[400]'>seehereme@gmail.com</span></div>

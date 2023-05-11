@@ -6,7 +6,7 @@ const UserNavigation = () => {
   const [active, setactive] = useState("home");
 
   return (
-    <header className='border px-3 md:px-8 lg:px-16 relative bg-[#151515]   h-16 flex items-center justify-between '>
+    <header className='xs:px-[3px]  mm:px-1 sm:px-3 md:px-8 lg:px-16 py-5 relative bg-[#151515]   h-16 flex items-center justify-between '>
       {/* DeskTop Version  */}
 
       <div className=" justify-between hidden sm:flex items-center  w-[90%] overflow-y-auto   ">
@@ -29,12 +29,12 @@ const UserNavigation = () => {
         </ul>
 
       </div>
-      <div className="bg-green-500  rounded-xl h-12 p-4 ml-2 text-white flex items-center justify-center ">
+      <div className="bg-green-500  rounded-xl h-12 p-4 ml-2 text-white hidden sm:flex items-center justify-center ">
         <AiOutlinePlus className='text-white text-xl'></AiOutlinePlus>    <span className='font-fontArimo text-[22px]'>Post</span>
       </div>
 
       {/* Mobile Version  */}
-      <div className="flex sm:hidden  justify-between items-center">
+      <div className="flex sm:hidden w-full justify-end  items-center">
         <div className="relative flex   justify-end items-center ">
           {toggle === false ? (
             <AiOutlineMenu
