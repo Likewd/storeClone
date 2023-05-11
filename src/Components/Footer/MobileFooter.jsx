@@ -6,7 +6,7 @@ import { IoCartOutline, IoHomeOutline } from 'react-icons/io5'
 
 const MobileFooter = () => {
     return (
-        <div className='bg-white  w-full fixed bottom-0 xs:px-[3px] border-2  '>
+        <div className='bg-white block sm:hidden  w-full fixed bottom-0 xs:px-[3px] border-2  '>
             <div className="flex items-center justify-center relative">
                 <div className="bg-buttonColor absolute -top-6 w-14 flex items-center border-4 border-white justify-center h-14 shadow-lg rounded-full">
                     <AiOutlinePlus className=' text-white text-[28px]'></AiOutlinePlus>
